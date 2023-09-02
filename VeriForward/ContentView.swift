@@ -8,6 +8,9 @@
 import SwiftUI
 import Contacts
 
+
+let contactStore = CNContactStore()
+
 struct SimpleContact: Identifiable, Codable {
     let id: String
     let name: String
@@ -76,6 +79,39 @@ struct ContentView: View {
     }
 }
 
+func requestAccessToContacts() {
+    // Check authorization status
+    let authorizationStatus = CNContactStore.authorizationStatus(for: .contacts)
+    
+    // Handle various authorization states
+    switch authorizationStatus {
+    case .authorized:
+        // Already authorized
+        fetchContacts()
+    case .notDetermined:
+        // Request access
+        contactStore.requestAccess(for: .contacts) { granted, error in
+            if granted {
+                fetchContacts()
+            } else {
+                // Handle error
+                print("Permission denied: \(String(describing: error?.localizedDescription))")
+            }
+        }
+    case .restricted, .denied:
+        // Handle restricted or denied states
+        print("Permission restricted or denied")
+    @unknown default:
+        // Handle unknown cases (though this should rarely happen)
+        print("Unknown authorization status")
+    }
+}
+
+func fetchContacts() {
+    // Your code to fetch contacts here
+}
+
+
 struct RuleDetailView: View {
     let item: Fruit
     
@@ -89,7 +125,9 @@ struct RuleDetailView: View {
                 .padding()
             
             // Add more details about the item here
-        }
+        }.onAppear(
+            perform: requestAccessToContacts
+        )
     }
 }
 
