@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1960CDF82AA2E56800F4423F /* VeriForwardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1960CDF72AA2E56800F4423F /* VeriForwardApp.swift */; };
+		1960CDFA2AA2E56800F4423F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1960CDF92AA2E56800F4423F /* ContentView.swift */; };
+		1960CDFC2AA2E56900F4423F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1960CDFB2AA2E56900F4423F /* Assets.xcassets */; };
+		1960CDFF2AA2E56900F4423F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1960CDFE2AA2E56900F4423F /* Preview Assets.xcassets */; };
+		1960CE092AA2E56900F4423F /* VeriForwardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1960CE082AA2E56900F4423F /* VeriForwardTests.swift */; };
+		1960CE132AA2E56900F4423F /* VeriForwardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1960CE122AA2E56900F4423F /* VeriForwardUITests.swift */; };
+		1960CE152AA2E56900F4423F /* VeriForwardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1960CE142AA2E56900F4423F /* VeriForwardUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1960CE052AA2E56900F4423F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1960CDEC2AA2E56800F4423F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1960CDF32AA2E56800F4423F;
+			remoteInfo = VeriForward;
+		};
+		1960CE0F2AA2E56900F4423F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1960CDEC2AA2E56800F4423F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1960CDF32AA2E56800F4423F;
+			remoteInfo = VeriForward;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1960CDF42AA2E56800F4423F /* VeriForward.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeriForward.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1960CDF72AA2E56800F4423F /* VeriForwardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeriForwardApp.swift; sourceTree = "<group>"; };
+		1960CDF92AA2E56800F4423F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1960CDFB2AA2E56900F4423F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1960CDFE2AA2E56900F4423F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1960CE042AA2E56900F4423F /* VeriForwardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeriForwardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1960CE082AA2E56900F4423F /* VeriForwardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeriForwardTests.swift; sourceTree = "<group>"; };
+		1960CE0E2AA2E56900F4423F /* VeriForwardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeriForwardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1960CE122AA2E56900F4423F /* VeriForwardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeriForwardUITests.swift; sourceTree = "<group>"; };
+		1960CE142AA2E56900F4423F /* VeriForwardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeriForwardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1960CDF12AA2E56800F4423F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1960CE012AA2E56900F4423F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1960CE0B2AA2E56900F4423F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1960CDEB2AA2E56800F4423F = {
+			isa = PBXGroup;
+			children = (
+				1960CDF62AA2E56800F4423F /* VeriForward */,
+				1960CE072AA2E56900F4423F /* VeriForwardTests */,
+				1960CE112AA2E56900F4423F /* VeriForwardUITests */,
+				1960CDF52AA2E56800F4423F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1960CDF52AA2E56800F4423F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1960CDF42AA2E56800F4423F /* VeriForward.app */,
+				1960CE042AA2E56900F4423F /* VeriForwardTests.xctest */,
+				1960CE0E2AA2E56900F4423F /* VeriForwardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1960CDF62AA2E56800F4423F /* VeriForward */ = {
+			isa = PBXGroup;
+			children = (
+				1960CDF72AA2E56800F4423F /* VeriForwardApp.swift */,
+				1960CDF92AA2E56800F4423F /* ContentView.swift */,
+				1960CDFB2AA2E56900F4423F /* Assets.xcassets */,
+				1960CDFD2AA2E56900F4423F /* Preview Content */,
+			);
+			path = VeriForward;
+			sourceTree = "<group>";
+		};
+		1960CDFD2AA2E56900F4423F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1960CDFE2AA2E56900F4423F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1960CE072AA2E56900F4423F /* VeriForwardTests */ = {
+			isa = PBXGroup;
+			children = (
+				1960CE082AA2E56900F4423F /* VeriForwardTests.swift */,
+			);
+			path = VeriForwardTests;
+			sourceTree = "<group>";
+		};
+		1960CE112AA2E56900F4423F /* VeriForwardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1960CE122AA2E56900F4423F /* VeriForwardUITests.swift */,
+				1960CE142AA2E56900F4423F /* VeriForwardUITestsLaunchTests.swift */,
+			);
+			path = VeriForwardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1960CDF32AA2E56800F4423F /* VeriForward */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1960CE182AA2E56900F4423F /* Build configuration list for PBXNativeTarget "VeriForward" */;
+			buildPhases = (
+				1960CDF02AA2E56800F4423F /* Sources */,
+				1960CDF12AA2E56800F4423F /* Frameworks */,
+				1960CDF22AA2E56800F4423F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VeriForward;
+			productName = VeriForward;
+			productReference = 1960CDF42AA2E56800F4423F /* VeriForward.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1960CE032AA2E56900F4423F /* VeriForwardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1960CE1B2AA2E56900F4423F /* Build configuration list for PBXNativeTarget "VeriForwardTests" */;
+			buildPhases = (
+				1960CE002AA2E56900F4423F /* Sources */,
+				1960CE012AA2E56900F4423F /* Frameworks */,
+				1960CE022AA2E56900F4423F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1960CE062AA2E56900F4423F /* PBXTargetDependency */,
+			);
+			name = VeriForwardTests;
+			productName = VeriForwardTests;
+			productReference = 1960CE042AA2E56900F4423F /* VeriForwardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1960CE0D2AA2E56900F4423F /* VeriForwardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1960CE1E2AA2E56900F4423F /* Build configuration list for PBXNativeTarget "VeriForwardUITests" */;
+			buildPhases = (
+				1960CE0A2AA2E56900F4423F /* Sources */,
+				1960CE0B2AA2E56900F4423F /* Frameworks */,
+				1960CE0C2AA2E56900F4423F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1960CE102AA2E56900F4423F /* PBXTargetDependency */,
+			);
+			name = VeriForwardUITests;
+			productName = VeriForwardUITests;
+			productReference = 1960CE0E2AA2E56900F4423F /* VeriForwardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1960CDEC2AA2E56800F4423F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1960CDF32AA2E56800F4423F = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					1960CE032AA2E56900F4423F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 1960CDF32AA2E56800F4423F;
+					};
+					1960CE0D2AA2E56900F4423F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 1960CDF32AA2E56800F4423F;
+					};
+				};
+			};
+			buildConfigurationList = 1960CDEF2AA2E56800F4423F /* Build configuration list for PBXProject "VeriForward" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1960CDEB2AA2E56800F4423F;
+			productRefGroup = 1960CDF52AA2E56800F4423F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1960CDF32AA2E56800F4423F /* VeriForward */,
+				1960CE032AA2E56900F4423F /* VeriForwardTests */,
+				1960CE0D2AA2E56900F4423F /* VeriForwardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1960CDF22AA2E56800F4423F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1960CDFF2AA2E56900F4423F /* Preview Assets.xcassets in Resources */,
+				1960CDFC2AA2E56900F4423F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1960CE022AA2E56900F4423F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1960CE0C2AA2E56900F4423F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1960CDF02AA2E56800F4423F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1960CDFA2AA2E56800F4423F /* ContentView.swift in Sources */,
+				1960CDF82AA2E56800F4423F /* VeriForwardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1960CE002AA2E56900F4423F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1960CE092AA2E56900F4423F /* VeriForwardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1960CE0A2AA2E56900F4423F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1960CE152AA2E56900F4423F /* VeriForwardUITestsLaunchTests.swift in Sources */,
+				1960CE132AA2E56900F4423F /* VeriForwardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1960CE062AA2E56900F4423F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1960CDF32AA2E56800F4423F /* VeriForward */;
+			targetProxy = 1960CE052AA2E56900F4423F /* PBXContainerItemProxy */;
+		};
+		1960CE102AA2E56900F4423F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1960CDF32AA2E56800F4423F /* VeriForward */;
+			targetProxy = 1960CE0F2AA2E56900F4423F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1960CE162AA2E56900F4423F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1960CE172AA2E56900F4423F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1960CE192AA2E56900F4423F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VeriForward/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zoostudios.VeriForward;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1960CE1A2AA2E56900F4423F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VeriForward/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zoostudios.VeriForward;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1960CE1C2AA2E56900F4423F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zoostudios.VeriForwardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VeriForward.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VeriForward";
+			};
+			name = Debug;
+		};
+		1960CE1D2AA2E56900F4423F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zoostudios.VeriForwardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VeriForward.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VeriForward";
+			};
+			name = Release;
+		};
+		1960CE1F2AA2E56900F4423F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zoostudios.VeriForwardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VeriForward;
+			};
+			name = Debug;
+		};
+		1960CE202AA2E56900F4423F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zoostudios.VeriForwardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VeriForward;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1960CDEF2AA2E56800F4423F /* Build configuration list for PBXProject "VeriForward" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1960CE162AA2E56900F4423F /* Debug */,
+				1960CE172AA2E56900F4423F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1960CE182AA2E56900F4423F /* Build configuration list for PBXNativeTarget "VeriForward" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1960CE192AA2E56900F4423F /* Debug */,
+				1960CE1A2AA2E56900F4423F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1960CE1B2AA2E56900F4423F /* Build configuration list for PBXNativeTarget "VeriForwardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1960CE1C2AA2E56900F4423F /* Debug */,
+				1960CE1D2AA2E56900F4423F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1960CE1E2AA2E56900F4423F /* Build configuration list for PBXNativeTarget "VeriForwardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1960CE1F2AA2E56900F4423F /* Debug */,
+				1960CE202AA2E56900F4423F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1960CDEC2AA2E56800F4423F /* Project object */;
+}
